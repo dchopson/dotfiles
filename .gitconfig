@@ -1,0 +1,33 @@
+[core]
+  editor = vim
+  autocrlf = input
+[merge]
+  tool = vimdiff
+[diff]
+  tool = vimdiff
+[mergetool]
+  prompt = false
+[difftool]
+  prompt = false
+[pull]
+  rebase = true
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --color
+    co = checkout
+    s = status -s
+    su = submodule update
+    r = reset --hard HEAD
+    m = merge
+    c = commit
+    b = branch
+    f = fetch
+    a = add
+    d = difftool
+    p = pull
+[user]
+	name = Daniel Chopson
+	email = daniel.chopson@sage.com
+[rerere]
+	enabled = true
+[push]
+	default = simple
