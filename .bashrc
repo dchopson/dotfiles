@@ -11,8 +11,6 @@ alias reload=". ~/.bash_profile"
 alias config="vim ~/.bashrc"
 alias config-vim="vim ~/.vimrc"
 alias clear="reload && clear"
-alias cpwd="pwd | pbcopy"
-alias cdwd="cd $(pbpaste)"
 
 ## Git
 alias g="git"
@@ -81,6 +79,7 @@ export MYSQL_USERNAME=root
 export MYSQL_PASSWORD=
 
 # rbenv
+# export PATH="$HOME/.rbenv/bin:$PATH" # Linux-only
 eval "$(rbenv init -)"
 
 # Mac
