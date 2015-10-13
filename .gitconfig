@@ -24,9 +24,6 @@
     a = add
     d = difftool
     p = pull
-[user]
-	name = Daniel Chopson
-	email = daniel.chopson@sage.com
 [rerere]
 	enabled = true
 [push]
