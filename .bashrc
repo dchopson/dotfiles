@@ -46,8 +46,8 @@ alias s1b="bundle _1.8.2_ exec rails s -p 3040"
 alias ms1_ca="bundle exec rails s -p 3001"
 alias s1_ca="bundle _1.8.2_ exec rails s -p 3031"
 alias s1b_ca="bundle _1.8.2_ exec rails s -p 3041"
-alias s1adv="bundle exec rails s -p 3032"
-alias s1add="bundle exec rails s -p 3050"
+alias s1adv="bundle exec thin start -p 3032 --threaded"
+alias s1add="bundle exec thin start -p 3050 --threaded"
 alias prepare="cd ..; ./ci/prepare_host_app.sh; cd host_app"
 
 # Bash history
